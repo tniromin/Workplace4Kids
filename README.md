@@ -1,6 +1,7 @@
 # Introduction
 > Focused on providing a simplistic environment for Students organize links and access them from the web browser itself.
 > Some might Prefer Obsidian as well to create dashboards and track all the work, I will be creating that as well.
+ 
 
 ## TimeTable
 > In order to prepare the time table create an html based table or extract it from you university webpage
@@ -11,7 +12,6 @@
 > Also make sure to rename the main page, ie Workspace.html to index.html befor launchin it
 > This will be extremely useful if I get the chance to implement a backend in the future
 ```py
-
 import http.server
 import socketserver
 
@@ -24,3 +24,5 @@ with socketserver.TCPServer(("", PORT), Handler) as httpd:
 
 
 ```
+
+<!-- Add Workflows later -->
