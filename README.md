@@ -26,3 +26,8 @@ with socketserver.TCPServer(("", PORT), Handler) as httpd:
 ```
 
 <!-- Add Workflows later -->
+## Commiting 
+> Note for now this is only for personal use
+```gitbash
+
+```
