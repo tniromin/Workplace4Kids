@@ -1,7 +1,7 @@
 # Introduction
 > Focused on providing a simplistic environment for Students organize links and access them from the web browser itself.
 > Some might Prefer Obsidian as well to create dashboards and track all the work, I will be creating that as well.
- 
+Note : <mark> Use Workspace Loader </mark> for upto date work and <mark>Index.html</mark>for stable and clean version 
 
 ## TimeTable
 > In order to prepare the time table create an html based table or extract it from you university webpage
