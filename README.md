@@ -12,22 +12,30 @@ Note : <mark> Use Workspace Loader </mark> for upto date work and <mark>Index.ht
 > Also make sure to rename the main page, ie Workspace.html to index.html befor launchin it
 > This will be extremely useful if I get the chance to implement a backend in the future
 ```py
-import http.server
-import socketserver
+    import http.server
+    import socketserver
+    import webbrowser
 
-PORT = 8000
-Handler = http.server.SimpleHTTPRequestHandler
+    # Define port and handler
+    PORT = 8000
+    Handler = http.server.SimpleHTTPRequestHandler
 
-with socketserver.TCPServer(("", PORT), Handler) as httpd:
-    print(f"Serving at http://localhost:{PORT}")
-    httpd.serve_forever()
-
+    # Server handling
+    with socketserver.TCPServer(("", PORT), Handler) as httpd:
+        print("Serving at port", PORT)
+        
+        # Open webpage in default web browser
+        webbrowser.open(f'http://localhost:{PORT}')
+        
+        # Temp hosting
+        httpd.serve_forever()
 
 ```
 
 <!-- Add Workflows later -->
 ## Commiting 
 > Note for now this is only for personal use
+> Will create a commit script later
 ```gitbash
-
+git add . | git commit -m "message" | git push
 ```
