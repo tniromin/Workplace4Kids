@@ -1,54 +1,144 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>CW-Trace</title>
-    <style>
-        body {
-            background-color: #000000;
-            color: aqua;
-            font-family: 'Fira Code';
-        }
-
-        .button.sqrbtn {
-            background-color: #e7e7e7; /* Grey */
-            border: none;
-            color: #000000;
-            padding: 15px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            cursor: pointer;
-        }
-    </style>
+	<title>
+		CW-Trace
+	</title>
 </head>
 
 <body>
-    <h1>Course Web</h1>
+	<style>	
+		body {
+			background-color: #000000ee;
+			color: aqua;
+			font-family: 'Fira Code';
+		}
+		
+		div.Content {
+			padding-top: 20px;
+			padding-right: 5%;
+			padding-bottom: 10px;
+			padding-left: 5%;
+		}
+		
+		div.Learning {
+			border-style: solid;
+		}
 
-    <h2>Tasks</h2>
-    <a href="#" target="_blank">Link to Task</a>
+		div.Learning h3{
+			background-color: #06a7b3;
+			color: #333;
+		
+		}
 
-    <h1>GitHub</h1>
-    <button class='sqrbtn' onclick="window.open('https://github.com/tniromin','_blank')">/Main</button>
-    <button class='sqrbtn' onclick="window.open('https://github.com/users/QuintusJoyal/projects/3/views/1','_blank')">/HitnRun</button>
+		
+		.btn{
+			font-family: Lato;
+			font-weight: 0;
+			font-size: 14px;
+			color: #fff;
+			background-color: #0066CC;
+			padding: 10px 30px;
+			border: 1px solid #0066cc;
+			box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+			border-radius: 2px;
+			cursor: pointer;
+			padding: 10px 15px;
+			background-color: #fff;
+			color: #0066cc;
+			border: solid 2px #0066cc;
+			}
 
-    <h1>Learning Portal</h1>
-    <button onclick="window.open('https://www.tutorialspoint.com/design_pattern/abstract_factory_pattern.htm','_blank')">Design Patterns</button>
-    <button onclick="window.open('https://lecturecapture.sliit.lk/neplayer.php?id=NUZnVHRnMERacF82MDkxMA==','_blank')">Old</button>
+		.btn:hover{
+			transition : 772ms;
+			background-color: #0066CC;
+			color: whitesmoke;
+			cursor: crosshair;
+			}
 
-    <h2>GitBash</h2>
+		.topnav {
+  			overflow: hidden;
+			background-color: #333;
+		}	
 
-    <details>
-        <summary>Year 2 Semester 1</summary>
-        <a href="https://courseweb.sliit.lk/login/index.php" target="_blank">Login</a><br>
-        <a href="https://courseweb.sliit.lk/course/view.php?id=2837" target="_blank">Probability and Statistics</a><br>
-        <a href="https://courseweb.sliit.lk/course/view.php?id=2818" target="_blank">Object Oriented Programming</a><br>
-        <a href="https://courseweb.sliit.lk/course/view.php?id=2837" target="_blank">Probability and Statistics</a><br>
-        <a href="https://courseweb.sliit.lk/course/view.php?id=2826" target="_blank">Routing and Switching</a><br>
-    </details>
+		.topnav a {
+			float: left;
+			color: #f2f2f2;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-size: 17px;
+		}
+
+		.topnav a:hover {
+			background-color: #ddd;
+			color: black;
+		}
+
+		.topnav a.active {
+			background-color: #06a7b3;
+			color: rgba(255, 255, 255, 0.89);
+		}
+	  </style>
+
+
+	<div class="topnav">
+		<a class="active" href="#home">H0m3</a>
+		<a href="https://courseweb.sliit.lk/login/index.php " target="_blank">Login</a>
+
+	</div>
+
+<div class="content">
+	<H1>Course Web</H1><hr>
+	<button  onclick="window.open('https://courseweb.sliit.lk/course/index.php?categoryid=1923','_blank')" class="btn">/2024</button> 
+	<button  onclick="window.open('https://courseweb.sliit.lk/course/index.php?categoryid=1156','_blank')" class="btn">/2023</button> 
+	<button  onclick="window.open('https://courseweb.sliit.lk/course/index.php?categoryid=45','_blank')" class="btn">/2022</button> 
+	
+
+
+	<h2>Tasks</h2><hr>
+	<a href="" target="_blank"></a>
+
+
+	<h1>GitHub</h1><hr>
+		<button  onclick="window.open('https://github.com/tniromin','_blank')" class="btn">/Main</button> 
+		<button  onclick="window.open('https://github.com/users/QuintusJoyal/projects/3/views/1','_blank')" class="btn" >/HitnRun</button><br>
+
+	
+	<h1>Learning Portal </h1> <hr>	
+		<button  onclick="window.open('https://github.com/tniromin','_blank')" class="btn">/Main</button>
+	
+	  <h2>GitBash [X]</h2>
+
+	<details>
+		<summary>Year 2 Semester 2 - [Temporary]</summary>
+			<a href="https://courseweb.sliit.lk/login/index.php " target="_blank">Login</a><br> <br>
+			<a href="#fkCW" target="_blank"> Advanced Internet Working</a><br>
+			<a href="#fkCW" target="_blank"> Computer Systems Administration</a><br>
+			<a href="#fkCW" target="_blank"> Embedded Systems</a><br>
+			<a href="#fkCW" target="_blank"> Operating Systems</a><br>
+			<a href="#fkCW" target="_blank"> Professional Engineering Practice and Industrial Management </a><br>
+			<a href="#fkCW" target="_blank"> Professional Skills </a><br>
+
+	</details>
+
+	<details>
+	<summary>Year 2 Semester 1</summary>
+		<a href="https://courseweb.sliit.lk/login/index.php " target="_blank">Login</a><br> <br>
+		<a href="https://courseweb.sliit.lk/course/view.php?id=2837" target="_blank"> Probability and Statistics</a><br>
+		<a href="https://courseweb.sliit.lk/course/view.php?id=2818" target="_blank"> object Oriented Programming</a><br>
+		<a href="https://courseweb.sliit.lk/course/view.php?id=2837" target="_blank"> Probability and Statistics</a><br>
+		<a href="https://courseweb.sliit.lk/course/view.php?id=2826" target="_blank"> Routing and Switching </a><br>
+		<details>
+			<summary><a href="https://courseweb.sliit.lk/course/index.php?categoryid=44"></a>2<sup>nd</sup> Year Past</summary>
+				<a href="https://courseweb.sliit.lk/course/index.php?categoryid=1156" target="_blank">2023</a><br>
+				<a href="https://courseweb.sliit.lk/course/index.php?categoryid=45" target="_blank">2022</a>
+		</details>
+	</details>
+</div>
+	
+
 </body>
+
 
 </html>
