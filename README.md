@@ -39,3 +39,23 @@ Note : <mark> Use Workspace Loader </mark> for upto date work and <mark>Index.ht
 ```gitbash
 git add . | git commit -m "message" | git push
 ```
+
+
+## Project Plan
+- [ ] Add a program to document using commits
+
+### index.html
+- [x] Add CSS
+- [ ] Tasker App
+    - [ ] Tasker-index
+        - [ ] Add JS 
+    - [ ] Integrate Tasker app with main webpage
+- [ ] Time Tables
+- [ ] Meetings
+    - [ ] Link
+    - [ ] Add container for CSS
+- [ ] Organize Website into individual components
+
+### Styles.css
+- [ ] Use grid layout
+
