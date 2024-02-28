@@ -43,16 +43,23 @@ git add . | git commit -m "message" | git push
 
 ## Project Plan
 - [ ] Add a program to document using commits
+- [ ] Implement Simple Profile/porfolio
+- [ ] Implement Tasker
 
 ### index.html
 - [x] Add CSS
 - [ ] Tasker App
     - [ ] Tasker-index
-        - [ ] Add JS 
+        - [ ] Add JS
+            - [ ] Button functionality
+            - [ ] Archieving/ History
+            - [ ] Integrate to Dash board
+            - [ ] Add a level system use simple A+e^x System
     - [ ] Integrate Tasker app with main webpage
+
 - [ ] Time Tables
 - [ ] Meetings
-    - [ ] Link
+    - [x] Link
     - [ ] Add container for CSS
 - [ ] Organize Website into individual components
 
