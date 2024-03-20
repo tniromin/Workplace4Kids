@@ -5,6 +5,11 @@ body {
     
 
 }
+
+div.hide{
+    display: none;
+}
+
 /*Will add classes in the future OK OK*/
 div.Content {
 
@@ -24,6 +29,13 @@ div.Task {
     background-color: #012022;
     color: #ffffff;
 
+
+}
+/*Courseweb links */
+div.cw{
+    border-style: hidden;
+    display: flex;
+    flex-direction: row;
 
 }
 
