@@ -93,6 +93,8 @@ div.Task {
 }
 
 .topnav a.git{
+    /* Add git theme */
+    color: #012022; /* No ideas for now*/
 
 }
 

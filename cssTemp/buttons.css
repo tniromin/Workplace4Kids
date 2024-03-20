@@ -51,7 +51,7 @@ button {
 }
 .button:hover,
 .button:focus {
-    border: 1px solid ##15eefa;
+    border: 1px solid #15eefa;
     background: #1dffff;
     background: -webkit-gradient(linear, left top, left bottom, from(#1dffff), to(#12c8d2));
     background: -moz-linear-gradient(top, #1dffff, #12c8d2);
